@@ -52,7 +52,6 @@ import ConfirmationDialogBox from "../components/ConfirmationDialogBox";
 import { hiddenOnMobile, hiddenOnDesktop } from "./style";
 //spatie and api stuff
 import {
-  logout,
   fetchPendingRequests,
   fetchApprovedOrders,
 } from "../config/api";
