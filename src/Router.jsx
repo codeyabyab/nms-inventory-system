@@ -5,9 +5,12 @@ import AuthLayout from "./layouts/AuthLayout";
 
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Categories from "./pages/Categories/Categories"
+import Items from "./pages/Items/Items";
+import AddItem from "./pages/Items/AddItem";
 
 import Loading from "./pages/Loading/Loading";
 import NotFound from "./pages/NotFound/NotFound"
+
 
 
 const Router = createBrowserRouter([
@@ -23,14 +26,14 @@ const Router = createBrowserRouter([
         path: "/",
         element: <Dashboard/>
       },
-      // {
-      //   path: "/items",
-      //   element: {Items}
-      // },
-      // {
-      //   path: "/item/add",
-      //   element: {addItems}
-      // },
+      {
+        path: "/items",
+        element: <Items/>
+      },
+      {
+        path: "/item/add",
+        element: <AddItem/>
+      },
       {
         path: "/categories",
         element: <Categories/>
