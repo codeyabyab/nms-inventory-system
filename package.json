@@ -16,6 +16,7 @@
     "@mui/material": "^6.1.6",
     "@mui/x-data-grid": "^7.22.2",
     "apisauce": "^3.1.0",
+    "date-fns": "^4.1.0",
     "echarts-for-react": "^3.0.2",
     "formik": "^2.4.6",
     "react": "^18.3.1",
